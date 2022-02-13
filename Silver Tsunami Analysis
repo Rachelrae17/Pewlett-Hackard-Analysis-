@@ -36,7 +36,8 @@ INTO retiring_titles
 FROM unique_titles
 GROUP BY title
 ORDER BY COUNT(title) DESC;
-Deliverable 2- The Employees Eligible for mentorship program. From Results based of Deliverable 2 I was able to draw the conclusion for the mentorship program. Several different outcomes and data were gathered. The Mentorship program is meant to help the employees along the way in their title be able to move up along the way of their career. 
+Deliverable 2- The Employees Eligible for mentorship program. From Results based of Deliverable 2 I was able to draw the conclusion for the mentorship program.
+Several different outcomes and data were gathered. The Mentorship program is meant to help the employees along the way in their title be able to move up along the way of their career. 
 The Code That was used to create the tables and outcome was: 
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
 		e.first_name,
@@ -87,11 +88,16 @@ JOIN employees AS e
 WHERE to_date = '9999-01-01'
  Deliverable 2 Tables Queries.
  
+![image](https://user-images.githubusercontent.com/95897182/153771665-f2d2eafe-e60e-4114-aeb5-1b380a285398.png)
 
+![image](https://user-images.githubusercontent.com/95897182/153771713-0af4b70f-d946-42a1-86e4-3bd2e2ce4541.png)
+
+![image](https://user-images.githubusercontent.com/95897182/153771769-20cab65a-90bf-40a7-8db6-40f9e2aaf52c.png) 
  
-
- 
-
-
-How many roles will need to be filled as the "silver tsunami" begins to make an impact? There is a decent number of roles that will be needed, with 1,900 employees retiring soon from each department The Pewlett Hackard company will have a huge silver tsunami with a whopping grand total of 72,000 employees that will be retiring this year. The major of them come from the job title as a senior engineer and senior staff. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? Yes, I think based on this analysis there were a huge number of employees that were in this mentorship where they did mentor the next generation to come that even though there are more employees retiring then staying in the company there were enough from the program that they will be able to know their position title and then as the company continues to hire more the mentorship program will be able to continue to educate and mentor fellow employees. 
+How many roles will need to be filled as the "silver tsunami" begins to make an impact? There is a decent number of roles that will be needed, with 1,900 employees retiring soon from each department.
+The Pewlett Hackard company will have a huge silver tsunami with a whopping grand total of 72,000 employees 
+that will be retiring this year. 
+The major of them come from the job title as a senior engineer and senior staff. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? 
+Yes, I think based on this analysis there were a huge number of employees that were in this mentorship where they did mentor the next generation to come that even though there are more employees retiring then 
+staying in the company there were enough from the program that they will be able to know their position title and then as the company continues to hire more the mentorship program will be able to continue to educate and mentor fellow employees. 
 
