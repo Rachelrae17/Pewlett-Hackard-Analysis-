@@ -8,8 +8,8 @@ From The Results of Deliverable 1 the conclusion that was drawn was that there w
 this upcoming year. There will be the senior staff with 24,926 employees retiring as well as Senior Engineering will be again a large number of staff 25,916. The highest amount
 of employees is the Senior staff, and the Senior Engineering.  
 The Outcome for Deliverable 1  Table Query. 
- 
-The code that was used to create this table was: 
+https://github.com/Rachelrae17/Pewlett-Hackard-Analysis-/issues/1#issue-1136169706
+ The code that was used to create this table was: 
 SELECT	e.emp_no,
 		e.first_name,
 		e.last_name,
