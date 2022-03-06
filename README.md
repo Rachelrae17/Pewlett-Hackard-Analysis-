@@ -11,6 +11,7 @@ of employees is the Senior staff, and the Senior Engineering.
 The Outcome for Deliverable 1  Table Query. 
 https://github.com/Rachelrae17/Pewlett-Hackard-Analysis-/issues/1#issue-1136169706
  The code that was used to create this table was: 
+
 SELECT	e.emp_no,
 		e.first_name,
 		e.last_name,
@@ -37,9 +38,11 @@ INTO retiring_titles
 FROM unique_titles
 GROUP BY title
 ORDER BY COUNT(title) DESC;
+
 Deliverable 2- The Employees Eligible for mentorship program. From Results based of Deliverable 2 I was able to draw the conclusion for the mentorship program.
 Several different outcomes and data were gathered. The Mentorship program is meant to help the employees along the way in their title be able to move up along the way of their career. 
 The Code That was used to create the tables and outcome was: 
+
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
 		e.first_name,
 		e.last_name,
