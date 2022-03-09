@@ -9,7 +9,8 @@ From The Results of Deliverable 1 the conclusion that was drawn was that there w
 this upcoming year. There will be the senior staff with 24,926 employees retiring as well as Senior Engineering will be again a large number of staff 25,916. The highest amount
 of employees is the Senior staff, and the Senior Engineering.  
 The Outcome for Deliverable 1  Table Query. 
-https://github.com/Rachelrae17/Pewlett-Hackard-Analysis-/issues/1#issue-1136169706
+![image](https://user-images.githubusercontent.com/95897182/157515147-53073f5e-0084-44fa-9442-2a50d4ba59f3.png)
+
  The code that was used to create this table was: 
 
 SELECT	e.emp_no,
@@ -38,6 +39,8 @@ INTO retiring_titles
 FROM unique_titles
 GROUP BY title
 ORDER BY COUNT(title) DESC;
+
+
 
 Deliverable 2- The Employees Eligible for mentorship program. From Results based of Deliverable 2 I was able to draw the conclusion for the mentorship program.
 Several different outcomes and data were gathered. The Mentorship program is meant to help the employees along the way in their title be able to move up along the way of their career. 
