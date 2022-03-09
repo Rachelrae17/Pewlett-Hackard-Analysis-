@@ -1,5 +1,7 @@
 # Pewlett-Hackard-Analysis-
 Deliverable 3 Written Report
+
+
 Overview of the analysis: 
 The Overview of this analysis was by using Postgre SQL Database PGAdmin Software I was able to conduct an outcome from the different CSV files for creating tables of the data to them
 be able to draw a conclusion with the Query tables. In Deliverable 1 we focused on finding the number of employees that will be retiring soon by their job title. 
@@ -9,6 +11,8 @@ From The Results of Deliverable 1 the conclusion that was drawn was that there w
 this upcoming year. There will be the senior staff with 24,926 employees retiring as well as Senior Engineering will be again a large number of staff 25,916. The highest amount
 of employees is the Senior staff, and the Senior Engineering.  
 The Outcome for Deliverable 1  Table Query. 
+
+
 ![image](https://user-images.githubusercontent.com/95897182/157515147-53073f5e-0084-44fa-9442-2a50d4ba59f3.png)
 
  The code that was used to create this table was: 
@@ -42,8 +46,13 @@ ORDER BY COUNT(title) DESC;
 
 
 
+
+
+
+
 Deliverable 2- The Employees Eligible for mentorship program. From Results based of Deliverable 2 I was able to draw the conclusion for the mentorship program.
 Several different outcomes and data were gathered. The Mentorship program is meant to help the employees along the way in their title be able to move up along the way of their career. 
+
 The Code That was used to create the tables and outcome was: 
 
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
@@ -93,6 +102,9 @@ JOIN departments AS d
 JOIN employees AS e
 	ON (dm.emp_no = e.emp_no)
 WHERE to_date = '9999-01-01'
+
+
+
  Deliverable 2 Tables Queries.
  
 ![image](https://user-images.githubusercontent.com/95897182/153771665-f2d2eafe-e60e-4114-aeb5-1b380a285398.png)
